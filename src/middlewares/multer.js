@@ -1,4 +1,5 @@
 import multer from "multer";
+ //  middleware that temporarily hold data on local server 
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
